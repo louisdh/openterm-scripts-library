@@ -1,0 +1,22 @@
+//If no parameters after x, then print usage and exit
+if isEmpty(parameters) {
+	print("Usage: x <value of x>\n")
+	exit()
+}
+
+//If you want to, you can use a variable instead of typing the whole thing
+
+//x = parameters[0]
+
+print("\n\nx = " + parameters[0] + " ")
+//Change parameters[0] to x if you want to use the variable x to shorten it
+
+//Uncomment if you want TTS
+//shell("say x.is.equal.to." + parameters[0])
+
+about = "\n__________\nABOUT\nx is a program made by GoDzM4TT3O that gets a parameter and then prints it to the user. It also offers TextToSpeech. Feel free to visit my website at: https://GoDzM4TT3O.js.org\n__________\n\n\n"
+aboutts = "x.is.a.program.made.by.gozmattèò.that.gets.a.parameter.and.then.printsit.to.the.user....It.also.offers.Text.To.Speech....Feel.free.to.visit.my.website.at.gozmattèò.dot.js.org"
+		print(about)
+//Uncomment if you want TTS for the about section.
+//shell("say " + aboutts)
+	exit()
